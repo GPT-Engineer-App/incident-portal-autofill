@@ -11,9 +11,6 @@ const Toolbar = () => {
         <Link to="/report" style={{ marginLeft: "10px" }}>
           Report Incident
         </Link>
-        <Link to="/view" style={{ marginLeft: "10px" }}>
-          View Incidents
-        </Link>
       </div>
       <Button onClick={toggleColorMode}>{colorMode === "light" ? "Dark" : "Light"} Mode</Button>
     </Box>
