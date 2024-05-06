@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Toolbar = () => {
   const { colorMode, toggleColorMode } = useColorMode();
   return (
-    <Box p={4} display="flex" justifyContent="space-between" alignItems="center" bgGradient="linear(to-r, teal.500, green.500)">
+    <Box p={4} display="flex" justifyContent="space-between" alignItems="center" bgGradient="linear(to-r, gray.700, gray.900)" boxShadow="base" borderRadius="lg">
       <div>
         <Link to="/" style={{ color: "white", textDecoration: "none", fontWeight: "bold", marginRight: "10px" }}>
           Dashboard

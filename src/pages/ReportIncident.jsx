@@ -19,7 +19,7 @@ function ReportIncident() {
   };
 
   return (
-    <Container maxW="container.md" py={8}>
+    <Container maxW="container.md" py={8} boxShadow="xl" p={5} borderRadius="lg" bg="gray.50">
       <VStack spacing={4} align="stretch">
         <Heading mb={4}>Incident Management Portal - Updated</Heading>
         <Button leftIcon={<FaPlus />} colorScheme="teal" onClick={onOpen}>
