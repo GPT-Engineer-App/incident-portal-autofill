@@ -1,11 +1,17 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Index from "./pages/Index.jsx";
+import ReportIncident from "./pages/ReportIncident.jsx";
+import ViewIncidents from "./pages/ViewIncidents.jsx";
+import IncidentDetails from "./pages/IncidentDetails.jsx";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route exact path="/" element={<Index />} />
+        <Route path="/" element={<Index />} />
+        <Route path="/report" element={<ReportIncident />} />
+        <Route path="/view" element={<ViewIncidents />} />
+        <Route path="/details/:id" element={<IncidentDetails />} />
       </Routes>
     </Router>
   );
