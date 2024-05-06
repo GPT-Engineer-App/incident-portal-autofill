@@ -21,7 +21,7 @@ const Index = () => {
   return (
     <Container maxW="container.md" py={8}>
       <VStack spacing={4} align="stretch">
-        <Heading mb={4}>Incident Management Portal</Heading>
+        <Heading mb={4}>Incident Management Portal - Updated</Heading>
         <Button leftIcon={<FaPlus />} colorScheme="teal" onClick={onOpen}>
           Report New Incident
         </Button>
